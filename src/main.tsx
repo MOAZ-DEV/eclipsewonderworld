@@ -15,7 +15,6 @@ const router = createBrowserRouter([{
     {      path: "/eclipsewonderworld/home", element: <HomePage />},
     {      path: "/eclipsewonderworld/eclipse_types", element: <EclipseTypesPage />},
     {      path: "/eclipsewonderworld/eclipses_throughout_history", element: <EclipsesThroughoutHistory />},
-    {      path: "*", element: <YouAreLost />},
   ]
 }])
 ReactDOM.createRoot(document.getElementById('root')!).render(
