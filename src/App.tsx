@@ -10,11 +10,10 @@ const App = () => {
   return <BrowserRouter>
 
     <Routes>
-<Route path="eclipsewonderworld">
+<Route path="/eclipsewonderworld/" element={<HomePage />} >
          <Route path="*" element={<YouAreLost />} />
-        <Route index path="" element={<HomePage />} />
-        <Route path="/eclipse_types" element={<EclipseTypesPage />} />
-        <Route path="/eclipses_throughout_history" element={<EclipsesThroughoutHistory />} />
+        <Route path="eclipse_types" element={<EclipseTypesPage />} />
+        <Route path="eclipses_throughout_history" element={<EclipsesThroughoutHistory />} />
 </Route>
 
     </Routes>
