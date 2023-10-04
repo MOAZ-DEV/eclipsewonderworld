@@ -11,11 +11,11 @@ const router = createBrowserRouter([{
   path: "/eclipsewonderworld/",
   element: <App />,
   children: [
-    {      path: "/eclipsewonderworld/*", element: <YouAreLost />},
     {      path: "/eclipsewonderworld/", element: <HomePage />},
     {      path: "/eclipsewonderworld/home", element: <HomePage />},
     {      path: "/eclipsewonderworld/eclipse_types", element: <EclipseTypesPage />},
     {      path: "/eclipsewonderworld/eclipses_throughout_history", element: <EclipsesThroughoutHistory />},
+    {      path: "/eclipsewonderworld/*", element: <YouAreLost />},
   ]
 }])
 ReactDOM.createRoot(document.getElementById('root')!).render(
