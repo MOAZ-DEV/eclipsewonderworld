@@ -1,9 +1,12 @@
+import { NavBar } from "../components/NavBar.tsx";
 import gphcx from "../assets/DesignRes/gphcx.png"
 import TweenMax from "gsap";
 
 
 import "./styling.scss";
 import { useEffect, useRef } from "react";
+import { Footer } from "../components/Footer.tsx";
+import { PNL } from "../components/PNL.tsx";
 
 export const EclipseTypesPage = (_props: any) => {
     let gphcxel: gsap.TweenTarget = useRef<HTMLSpanElement>(null),
@@ -40,6 +43,7 @@ export const EclipseTypesPage = (_props: any) => {
             )} className="gphcx">
             <img src={gphcx} alt="moon" loading="lazy" />
         </span>
+        <NavBar />
 
         <div className="contentWrap">
             <div className="HB36">
@@ -116,6 +120,8 @@ export const EclipseTypesPage = (_props: any) => {
             </div>
         </div>
 
+        <PNL />
+        <Footer />
     </div>;
 }
 

@@ -1,3 +1,4 @@
+import { NavBar } from "../components/NavBar.tsx";
 import introbg from "../assets/DesignRes/introbg.png"
 import gphcx from "../assets/DesignRes/gphcx.png"
 import TweenMax from "gsap";
@@ -5,6 +6,9 @@ import TweenMax from "gsap";
 
 import "./styling.scss";
 import { useEffect, useRef } from "react";
+import { Footer } from "../components/Footer.tsx";
+import { PNL } from "../components/PNL.tsx";
+
 export const HomePage = (_props: any) => {
     let gphcxel: gsap.TweenTarget = useRef<HTMLSpanElement>(null),
         intro: gsap.TweenTarget = useRef<HTMLSpanElement>(null),
@@ -40,6 +44,7 @@ export const HomePage = (_props: any) => {
             )} className="gphcx">
             <img src={gphcx} alt="moon" loading="lazy" />
         </span>
+        <NavBar />
 
         <div className="heroWrap">
             <h6 className="BR14">
@@ -59,6 +64,9 @@ export const HomePage = (_props: any) => {
                 Get ready for an adventure that will take you from mythical stories to scientific fact!
                 So come along and let's dive right in to eclipse world!</h4>
         </div>
+
+        <PNL />
+        <Footer />
     </div>;
 }
 
