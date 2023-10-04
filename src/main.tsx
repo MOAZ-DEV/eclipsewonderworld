@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { HomePage } from './pages/HomePage.tsx'
-import { YouAreLost } from './pages/YouAreLost.tsx'
+//import { YouAreLost } from './pages/YouAreLost.tsx'
 import { EclipseTypesPage } from './pages/EclipseTypesPage.tsx'
 import { EclipsesThroughoutHistory } from './pages/EclipsesThroughoutHistory.tsx'
 
