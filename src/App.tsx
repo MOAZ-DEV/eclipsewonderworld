@@ -11,7 +11,8 @@ const App = () => {
 
     <Routes>
 <Route path="eclipsewonderworld">
-
+ 
+ <></>
         <Route path="*" element={<YouAreLost />} />
         <Route index path="" element={<HomePage />} />
         <Route path="eclipse_types" element={<EclipseTypesPage />} />
