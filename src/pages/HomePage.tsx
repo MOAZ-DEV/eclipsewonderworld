@@ -57,12 +57,9 @@ export const HomePage = (_props: any) => {
         <div ref={el => intro = el} className="introWrap">
             <img ref={el => introimg = el} src={introbg} alt="Moon eclipse" loading="lazy" />
             <h6 className="BM18">
-                Have you ever seen the Moon <br /> disappear behind the Sun and <br /> wondered why?</h6>
+                Have you ever wondered how the Moon <br /> gets covered up by the Sun, <br /> or what causes the sky to go dark?</h6>
             <h4 className="HR24">
-                Well, here at Eclipse Wonder World,
-                we're going to teach you all about the amazing world of eclipses!
-                Get ready for an adventure that will take you from mythical stories to scientific fact!
-                So come along and let's dive right in to eclipse world!</h4>
+                Well, look no further! Here on Eclipse wonder world, we're going to teach you everything there is to know about these amazing natural phenomena! Join us on a journey of wonder from ancient myths to modern science! So come on in and let the adventure begin!</h4>
         </div>
 
         <PNL />
