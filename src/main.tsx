@@ -6,6 +6,8 @@ import { HomePage } from './pages/HomePage.tsx'
 import { YouAreLost } from './pages/YouAreLost.tsx'
 import { EclipseTypesPage } from './pages/EclipseTypesPage.tsx'
 import { EclipsesThroughoutHistory } from './pages/EclipsesThroughoutHistory.tsx'
+import { AboutEclipsesPage } from './pages/AboutEclipsesPage.tsx'
+import { MatchingGame } from './games/MatchingGame/Game.tsx'
 
 const router = createBrowserRouter([{
   path: "/eclipsewonderworld/",
@@ -14,8 +16,10 @@ const router = createBrowserRouter([{
     {      path: "/eclipsewonderworld/*", element: <YouAreLost />},
     {      path: "/eclipsewonderworld/", element: <HomePage />},
     {      path: "/eclipsewonderworld/home", element: <HomePage />},
+    {      path: "/eclipsewonderworld/about_eclipses_page", element: <AboutEclipsesPage />},
     {      path: "/eclipsewonderworld/eclipse_types", element: <EclipseTypesPage />},
     {      path: "/eclipsewonderworld/eclipses_throughout_history", element: <EclipsesThroughoutHistory />},
+    {      path: "/eclipsewonderworld/game/eclipse_matching", element: <MatchingGame />},
   ]
 }])
 ReactDOM.createRoot(document.getElementById('root')!).render(

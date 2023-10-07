@@ -47,7 +47,7 @@ export const EclipseTypesPage = (_props: any) => {
 
         <div className="contentWrap">
             <div className="HB36">
-                <h3>What are the</h3>
+                <h3>What are the</h3> 
                 <h3>types of eclipses?</h3>
             </div>
             <div>

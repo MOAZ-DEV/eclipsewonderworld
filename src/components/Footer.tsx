@@ -1,4 +1,3 @@
-
 import lnv from "../assets/DesignRes/lnv.mp4";
 import "./styling.scss";
 
@@ -16,7 +15,7 @@ export const Footer = () => <footer>
             </div>
             <ul>
                 <li className="BR14"><a href="/eclipsewonderworld/eclipse_types">Eclipse Types</a></li>
-                <li className="BR14"><a>Mechanics of an eclipse</a></li>
+                <li className="BR14"><a href="/eclipsewonderworld/about_eclipses_page">All About Eclipses</a></li>
                 <li className="BR14"><a href="/eclipsewonderworld/eclipses_throughout_history">Eclipses Throughout History</a></li>
             </ul>
         </div>

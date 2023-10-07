@@ -11,7 +11,7 @@
 
     box-sizing: content-box;
 
-    padding: 0 25px;
+    padding: 125px 25px;
 
     section {
         @include DFC;
@@ -21,8 +21,6 @@
         width: clamp(300px, 100%, 875px);
         padding: 0 25px;
 
-        lable {
-        }
         .casesWrap {
             @include sc(900px) {
                 columns: 2;

@@ -110,7 +110,7 @@ export const MatchingGame = () => {
                     <path d="M1.8335 13.3571L7.92874 22.5L10.1829 19.1393C15.5034 11.2069 23.3791 5.33493 32.5002 2.5V2.5" stroke="black" stroke-width="4" />
                 </svg></button> 
                 :
-                <button className='bb18px' onClick={() => { setFinish(false); setNewList([...Res]); setCaseList([...Res]);}}>Restart</button>
+                <button className='bb18px' onClick={() => { setFinish(false); setNewList([...Res]); setCaseList([...Res]);}}>Go Back</button>
             }
         </div>
 
