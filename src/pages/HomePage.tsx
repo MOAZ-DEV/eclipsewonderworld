@@ -59,7 +59,7 @@ export const HomePage = (_props: any) => {
             <h6 className="BM18">
                 Have you ever seen the Moon <br /> disappear behind the Sun and <br /> wondered why?</h6>
             <h4 className="HR24">
-                Well, here at Eclipsed Horizons,
+                Well, here at Eclipse Wonder World,
                 we're going to teach you all about the amazing world of eclipses!
                 Get ready for an adventure that will take you from mythical stories to scientific fact!
                 So come along and let's dive right in to eclipse world!</h4>
