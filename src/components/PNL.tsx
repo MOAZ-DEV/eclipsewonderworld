@@ -12,7 +12,7 @@ export const PNL = () => <div className="pnlWrap">
                 Eclipse Concentration </h5>
             <h6 className="BM12" >
                 A shoting game based on space and preventing earth from invaders</h6></a></li>
-        <li><a href="https://mohammedhamdy102003.github.io/game/">
+        <li><a href="https://mohammedhamdy102003.github.io/gamea/">
             <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.5 13L12.5 1M12.5 1H1.5M12.5 1V11" stroke="black" /></svg>
             <h5 className="BB18">
