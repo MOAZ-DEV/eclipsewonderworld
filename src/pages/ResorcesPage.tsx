@@ -66,15 +66,15 @@ export const ResorcesPage = (_props: any) => {
                     <p>Eclipses</p>
                 </a><a href="https://www.weather.gov/fsd/suneclipse#:~:text=A%20solar%20eclipse%20occurs%20when,Earth's%20orbit%20around%20the%20Sun" className="BM14">
                     <p>Solar and Lunar Eclipses
-US Department of Commerce</p>
+                        US Department of Commerce</p>
                 </a><a href="https://spaceplace.nasa.gov/eclipses/#:~:text=Getting%20a%20chance%20to%20see,path%20of%20the%20Moon's%20shadow" className="BM14">
                     <p>Lunar Eclipses and Solar Eclipses</p>
                 </a><a href="https://www.astronomy.com/observing/how-often-do-solar-eclipses-occur/" className="BM14">
                     <p>How often do solar eclipses occur?
-Bakich</p>
+                        Bakich</p>
                 </a><a href="https://www.britannica.com/science/eclipse/The-frequency-of-solar-and-lunar-eclipses" className="BM14">
                     <p>
-                    The frequency of solar and lunar eclipses
+                        The frequency of solar and lunar eclipses
 
                     </p>
                 </a><a href="https://www.skyatnightmagazine.com/space-science/how-predict-eclipses#:~:text=The%20clockwork%20nature%20of%20the,appear%20at%20a%20certain%20time" className="BM14">
@@ -87,14 +87,17 @@ Bakich</p>
                     <p>NASA Eclipse Science - NASA Science</p>
                 </a><a href="https://solarsystem.nasa.gov/eclipses/about-eclipses/faq/" className="BM14">
                     <p>FAQ - NASA Science
-</p>
+                    </p>
                 </a><a href="https://solarsystem.nasa.gov/eclipses/about-eclipses/history/" className="BM14">
                     <p>History - NASA Science
-</p>
+                    </p>
                 </a><a href="https://moon.nasa.gov/news/185/what-you-need-to-know-about-the-lunar-eclipse/#:~:text=The%20last%20total%20lunar%20eclipse,Moon%20passes%20into%20Earth's%20shadow" className="BM14">
                     <p>What You Need to Know About the Lunar Eclipse – Moon: NASA Science</p>
                 </a><a href="https://spaceplace.nasa.gov/search/eclipse/sp/" className="BM14">
                     <p>Eclipse</p>
+                </a><a href="https://science.nasa.gov/solar-system/planets/what-is-a-planet" className="BM14">
+                    <p>What is a Planet? - NASA Science
+                        The More We Learn, the More It Changes This seemingly simple question doesn’t have a simple answer. Everyone knows that Earth, Mars and Jupiter are planets. But both Pluto and Ceres were once considered planets until new discoveries triggered scientific debate about how to best describe them – a vigorous debate that continues to this</p>
                 </a>
                 <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
             </div>
