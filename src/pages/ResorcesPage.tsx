@@ -48,7 +48,7 @@ export const ResorcesPage = (_props: any) => {
 
         <div className="contentWrap">
             <div className="HB36">
-                <h3>Resorces</h3>
+                <h3>Resources</h3>
             </div>
             <div>
                 <h5 className="HB24">
