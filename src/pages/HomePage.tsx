@@ -50,16 +50,13 @@ export const HomePage = (_props: any) => {
             <h6 className="BR14">
                 An amazing journey supported <br /> with learning games</h6>
             <h2 className="HB64">
-                The Eclipse Season: <br />
-                A Guide to Understanding <br /> and Observing</h2>
+            Eclipse Wonder World: <br /> Unlock the Joy of Learning <br /> with Games and Smiles!</h2>
         </div>
 
         <div ref={el => intro = el} className="introWrap">
             <img ref={el => introimg = el} src={introbg} alt="Moon eclipse" loading="lazy" />
-            <h6 className="BM18">
-                Have you ever wondered how the Moon <br /> gets covered up by the Sun, <br /> or what causes the sky to go dark?</h6>
-            <h4 className="HR24">
-                Well, look no further! Here on Eclipse wonder world, we're going to teach you everything there is to know about these amazing natural phenomena! Join us on a journey of wonder from ancient myths to modern science! So come on in and let the adventure begin!</h4>
+           <h4 className="HR24">
+            Hello there, and welcome to Eclipse wonder world! Have you ever wondered how the Moon gets covered up by the Sun, or what causes the sky to go dark? Well, look no further! Here on Eclipse wonder world, we're going to teach you everything there is to know about these amazing natural phenomena! Join us on a journey of wonder from ancient myths to modern science! So come on in and let the adventure begin.</h4>
         </div>
 
         <PNL />

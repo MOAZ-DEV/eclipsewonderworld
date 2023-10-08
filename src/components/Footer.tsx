@@ -3,10 +3,8 @@ import "./styling.scss";
 
 export const Footer = () => <footer>
     <div>
-        <h3 className="HB36">
-            This website made with team full with passion. Targeted to deliver knowledge to the young generation!
-
-        </h3>
+        <h3 className="HB24">
+            This website made with team full with passion. Targeted to deliver knowledge to the young generation!</h3>
         <div className="wrap">
             <div className="video">
                 <video src={lnv} autoPlay={true} playsInline={true} loop={true} ></video>

@@ -30,9 +30,11 @@
                     max-width: none !important;
                 }
             }
+
             @include sc(600px) {
                 columns: 1;
             }
+
             columns: 3;
 
             padding: 12px;
@@ -76,6 +78,7 @@
                     opacity: 0.75;
                     background: rgba(0, 0, 0, 0.05);
                 }
+
                 h4 {
                     text-align: left;
                     line-height: 90%;
@@ -84,6 +87,7 @@
                 }
             }
         }
+
         .wraper {
             @include DFC;
             align-items: flex-start;
@@ -94,13 +98,13 @@
             border-radius: 12px;
             border: 1px solid #000;
             background: #fff;
-
             color: #000;
 
             h4 {
                 padding: 12px;
             }
         }
+
         .visualsWrap {
             @include sc(900px) {
                 grid-template-columns: repeat(2, 1fr);
@@ -110,6 +114,7 @@
                     max-width: none !important;
                 }
             }
+
             @include sc(600px) {
                 grid-template-columns: repeat(1, 1fr);
             }
@@ -123,12 +128,15 @@
 
             .visualBox {
                 @include DFR;
+
                 @include sc(900px) {
                     max-width: 400px;
                 }
+
                 @include sc(600px) {
                     max-width: 100%;
                 }
+
                 align-items: flex-end;
                 gap: 10px;
 
@@ -145,11 +153,12 @@
                     aspect-ratio: 4/3;
                     object-fit: cover;
                 }
+
                 .dragHolder {
                     @include DFR;
                     align-items: flex-start;
 
-line-break: initial;
+                    line-break: initial;
 
                     position: absolute;
                     bottom: 12px;
@@ -167,7 +176,7 @@ line-break: initial;
                     color: #00a3ff;
                     -webkit-user-drag: element;
                     cursor: grab;
-                    
+
                     h4 {
                         padding: 0;
                     }
@@ -175,13 +184,14 @@ line-break: initial;
             }
         }
     }
+
     .btnWrap {
         @include DFR;
 
         width: inherit;
         max-width: clamp(300px, 100%, 875px);
         padding: 0 25px;
-        
+
         button {
             @include DFR;
             gap: 125px;

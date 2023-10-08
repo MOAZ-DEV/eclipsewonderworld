@@ -30,17 +30,17 @@
 
         text-transform: uppercase;
 
-        @include sc(600px) {
+        @include sc(1045px) {
                 font-size: 48px;
                 padding: 0 45px;
                 br {
                         display: none;
                 }
         }
-        @include sc(425px) {
-                font-size: 40px;
+        @include sc(565px) {
+                font-size: 35px;
                 br {
-                        display: unset;
+                        display: none;
                 }
         }
         @include sc(325px) {
@@ -72,7 +72,7 @@
 .HB24 {
         font-size: 24px;
         font-weight: 600;
-        line-height: 100%;
+        line-height: 125%;
 }
 .HB24,
 .HR24,
@@ -99,7 +99,7 @@
 .BM14 {
         font-size: 14px;
         font-weight: 500;
-        line-height: 100%;
+        line-height: 120%;
 }
 .BB14 {
         font-size: 14px;
@@ -111,6 +111,7 @@
 .BM14 {
         @include rsc(1200px) {
                 font-size: 18px;
+                font-family: sans-serif !important;
         }
 }
 .BM12 {
