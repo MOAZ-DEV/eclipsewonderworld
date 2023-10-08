@@ -98,6 +98,12 @@ export const ResorcesPage = (_props: any) => {
                 </a><a href="https://science.nasa.gov/solar-system/planets/what-is-a-planet" className="BM14">
                     <p>What is a Planet? - NASA Science
                         The More We Learn, the More It Changes This seemingly simple question doesn’t have a simple answer. Everyone knows that Earth, Mars and Jupiter are planets. But both Pluto and Ceres were once considered planets until new discoveries triggered scientific debate about how to best describe them – a vigorous debate that continues to this</p>
+                </a><a href="https://spaceplace.nasa.gov/eclipse-snap/en" className="BM14">
+                    <p>What Is a Solar Eclipse? | NASA Space Place – NASA Science for Kids
+                        Whoa! It’s the middle of the day—so why is the sky getting dark? It’s a solar eclipse! A solar eclipse happens when, at just the right moment, the Moon passes between the Sun and Earth. Sometimes the Moon only blocks part of the Sun’s light. This is called a partial solar eclipse. Other times, the Moon blocks all of the Sun’s light.</p>
+                </a><a href="" className="BM14">
+                    <p>In Depth | Earth - Solar System Exploration: NASA Science
+With a radius of 1,080 miles (1,738 kilometers), the Moon is the fifth largest moon in our solar system (after Ganymede, Titan, Callisto and Io). The Moon is farther away from Earth than most people realize. The Moon is an average of 238,855 miles (384,400 kilometers) away. That means 30 Earth-sized planets could fit in between Earth and the ...</p>
                 </a>
                 <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
             </div>
