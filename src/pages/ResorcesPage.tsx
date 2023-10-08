@@ -52,27 +52,21 @@ export const ResorcesPage = (_props: any) => {
             </div>
             <div>
                 <h5 className="HB24">
-                    One of the most significant solar eclipses in history occurred on May 29, 1919. During this eclipse, observations were made that confirmed Albert Einstein's theory of general relativity. Sir Arthur Eddington led an expedition to Principe and Sobral, where they photographed the eclipse to measure the deflection of starlight by the Sun's gravity, providing experimental evidence for Einstein's revolutionary ideas.</h5>
-                <h5 className="HB24">
-                    Ancient Eclipses in Mythology:</h5>
+Articles:</h5>
+<a className="BM14" href="https://moon.nasa.gov/news/185/what-you-need-to-know-about-the-lunar-eclipse/#:~:text=The%20last%20total%20lunar%20eclipse,Moon%20passes%20into%20Earth's%20shadow">
                 <p className="BM14">
-                    Eclipses have fascinated cultures throughout history, often finding their place in mythology and folklore. In ancient Chinese mythology, solar eclipses were believed to occur when a celestial dragon devoured the Sun, while in Norse mythology, a pair of wolves chased the Sun and Moon, causing eclipses. Exploring these myths helps us understand the cultural significance people attached to eclipses and their efforts to explain these celestial phenomena.</p>
-                <h5 className="HB24">
-                    The Eclipse That United America:</h5>
-                <p className="BM14">
-                    On August 21, 2017, a total solar eclipse traversed the United States from coast to coast, capturing the nation's attention. Millions of people flocked to the path of totality, creating a shared experience that united Americans from diverse backgrounds. This eclipse emphasized the power of celestial events to bring people together in awe and wonder, fostering a sense of unity and appreciation for the natural world.</p>
-                <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
-                <h5 className="HB24">
-                    Eclipses as Historical Markers:</h5>
-                <p className="BM14">
-                    Throughout history, eclipses have served as important markers for dating and recording historical events. The ancient Greek historian Herodotus used a solar eclipse to determine the date of a battle between the Lydians and the Medes. By studying historical records of eclipses, astronomers and historians can piece together the timeline of past events and gain insights into ancient civilizations.</p>
-                <h5 className="HB24">
-                    The Legacy of Eclipse Chasers:</h5>
-                <p className="BM14">
-                    Eclipse chasers, passionate individuals who journey around the world to witness and document eclipses, have made significant contributions to our understanding of these celestial events. Their meticulous observations and data collection have added valuable insights to scientific studies, aiding in the advancement of eclipse prediction models and expanding our knowledge of the Sun, Moon, and Earth's interactions.</p>
-                <h5 className="HB24">
-                    By exploring these famous eclipses, we can appreciate their impact on science, culture, and human curiosity throughout the ages. Eclipses continue to inspire and captivate us, leaving an indelible mark on our collective consciousness.</h5>
-            </div>
+What You Need to Know About the Lunar Eclipse – Moon: NASA Science
+                </p>
+
+                </a>
+<a className="BM14" href="">
+                </a>
+<a className="BM14" href="">
+                </a>
+<a className="BM14" href="">
+                </a>
+               <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
+             </div>
         </div>
 
         <PNL />
