@@ -105,6 +105,9 @@ export const ResorcesPage = (_props: any) => {
                     <p>In Depth | Earth - Solar System Exploration: NASA Science
                         With a radius of 1,080 miles (1,738 kilometers), the Moon is the fifth largest moon in our solar system (after Ganymede, Titan, Callisto and Io). The Moon is farther away from Earth than most people realize. The Moon is an average of 238,855 miles (384,400 kilometers) away. That means 30 Earth-sized planets could fit in between Earth and the ...</p>
                 </a>
+                <p className="BM14">
+                    Safety Video:
+                </p>
                 <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
             </div>
         </div>
