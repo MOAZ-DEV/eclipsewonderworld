@@ -7,7 +7,9 @@ import { useEffect, useRef } from "react";
 import { Footer } from "../components/Footer.tsx";
 import { PNL } from "../components/PNL.tsx";
 
-export const EclipsesThroughoutHistory = (_props: any) => {
+import vid  from "../assets/DesignRes/lnv.mp4";
+
+export const ResorcesPage = (_props: any) => {
     let gphcxel: gsap.TweenTarget = useRef<HTMLSpanElement>(null),
         intro: gsap.TweenTarget = useRef<HTMLSpanElement>(null),
         introimg: gsap.TweenTarget = useRef<HTMLSpanElement>(null),
@@ -46,9 +48,7 @@ export const EclipsesThroughoutHistory = (_props: any) => {
 
         <div className="contentWrap">
             <div className="HB36">
-                <h3>Famous Eclipses</h3>
-                <h3>Throughout</h3>
-                <h3>History</h3>
+                <h3>Resorces</h3>
             </div>
             <div>
                 <h5 className="HB24">
@@ -61,6 +61,7 @@ export const EclipsesThroughoutHistory = (_props: any) => {
                     The Eclipse That United America:</h5>
                 <p className="BM14">
                     On August 21, 2017, a total solar eclipse traversed the United States from coast to coast, capturing the nation's attention. Millions of people flocked to the path of totality, creating a shared experience that united Americans from diverse backgrounds. This eclipse emphasized the power of celestial events to bring people together in awe and wonder, fostering a sense of unity and appreciation for the natural world.</p>
+                <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
                 <h5 className="HB24">
                     Eclipses as Historical Markers:</h5>
                 <p className="BM14">
@@ -78,53 +79,3 @@ export const EclipsesThroughoutHistory = (_props: any) => {
         <Footer />
     </div>;
 }
-
-/**
- 
-
-
-
-
-
-
-
-
-
- * <p className="BM12">
-                    Credits. <br />
-                    Moaaz - Mohammed - Sandy - Sara</p>
- * 
- How_to_Safely_Watch_a_Solar_Eclipse_ExonFXrnHKE_298
- * 
- * Some eclipses could cause eye damage to us. Get know to it and learn how to avoid getting harm from it
- 
-<div className="paperWrap">
-            <img src={exp} alt="" />
-            <section>
-                <p className="BM14">The phenomena of an eclipse</p>
-                <div className="BR18">
-                    <h4>
-                        A solar eclipse occurs when the Moon passes directly between the Earth and the Sun,
-                        blocking the Sun's light and creating a dark shadow on the Earth. A lunar eclipse occurs when
-                        the Earth's shadow falls on the Moon, causing it to appear darker during this period.
-                        Depending on the location, the duration of the eclipse can range from a few minutes
-                        to several hours.</h4>
-                    <h4>
-                        The phenomenon of an eclipse refers to the event when the Moon passes between the Earth
-                        and Sun and blocks the light that reaches the Earth. Eclipses can be categorized into
-                        two types: solar and lunar.</h4>
-                </div>
-            </section>
-        </div>
-
-
-Intro
-Mechanics of an eclipse 
-Solar vs lunar
-Safety while watching an eclipse
-
-
-
-
-
- */

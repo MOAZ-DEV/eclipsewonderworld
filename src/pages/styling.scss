@@ -138,6 +138,10 @@
         padding: 0px 45px;
 
             max-width: 1450px;
+
+            video {
+                max-width: 100%;
+            }
         
         &.lostPage {
             align-items: center !important;

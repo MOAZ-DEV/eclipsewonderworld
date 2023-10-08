@@ -6,7 +6,7 @@ export const NavBar = () => <nav>
     <ul>
         <li className="BR14"><a href="/eclipsewonderworld/eclipse_types">Eclipse Types</a></li>
         <li className="BR14"><a href="/eclipsewonderworld/about_eclipses_page">All About Eclipses</a></li>
-        <li className="BR14"><a href="/eclipsewonderworld/eclipses_throughout_history">Eclipses Throughout History</a></li>
+        <li className="BR14"><a href="/eclipsewonderworld/resorces">Resorces</a></li>
     </ul>
 </nav>
 
