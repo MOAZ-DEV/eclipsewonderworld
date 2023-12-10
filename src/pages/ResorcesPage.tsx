@@ -96,7 +96,10 @@ export const ResorcesPage = (_props: any) => {
                 </a><a href="https://spaceplace.nasa.gov/search/eclipse/sp/" className="BM14">
                     <p>Eclipse</p>
             
-               
+                <p className="BM14">
+                    Safety Video:
+                </p>
+                <video src={vid} controls autoPlay={true} playsInline={true} loop={true}></video>
             </div>
         </div>
 
